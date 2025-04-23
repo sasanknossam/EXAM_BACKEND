@@ -13,7 +13,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/api/rooms")
-@CrossOrigin("https://exambackend-production.up.railway.app/")
+@CrossOrigin("https://esa-si4g.onrender.com")
 @RequiredArgsConstructor
 public class RoomController {
 
