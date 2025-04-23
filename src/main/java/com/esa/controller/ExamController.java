@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/exams")
 @RequiredArgsConstructor
-@CrossOrigin("https://exambackend-production.up.railway.app")
+@CrossOrigin("https://esa-si4g.onrender.com")
 public class ExamController {
 
     private final ExamService examService;
