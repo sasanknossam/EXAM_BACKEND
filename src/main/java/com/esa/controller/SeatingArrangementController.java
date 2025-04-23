@@ -22,7 +22,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/seating-arrangements")
 @RequiredArgsConstructor
-@CrossOrigin("https://exambackend-production.up.railway.app/0")
+@CrossOrigin("https://esa-si4g.onrender.com")
 public class SeatingArrangementController {
 
     private final SeatingArrangementService seatingArrangementService;
