@@ -12,7 +12,7 @@ import java.util.List;
  * Controller for managing room-related operations.
  */
 @RestController
-@RequestMapping("/api/rooms")
+@RequestMapping("https://mild-sile-sasanknossam-1168063f.koyeb.app/api/rooms")
 @CrossOrigin("https://esa-si4g.onrender.com")
 @RequiredArgsConstructor
 public class RoomController {
