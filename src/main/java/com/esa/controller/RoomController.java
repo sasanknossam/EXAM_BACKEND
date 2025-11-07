@@ -13,7 +13,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("https://mild-sile-sasanknossam-1168063f.koyeb.app/api/rooms")
-@CrossOrigin("https://esa-si4g.onrender.com")
+@CrossOrigin(origins="https://esa-si4g.onrender.com")
 @RequiredArgsConstructor
 public class RoomController {
 
